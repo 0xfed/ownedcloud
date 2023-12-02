@@ -27,7 +27,10 @@ By default, signingKey for an user is empty. That's why they added a check in `l
 Construct a valid signed for empty signing key is ~~not~~ an easy task. (Many) thank chatgpt for not wasting my day.
 
 You can run `dav.py` with **python3** but before that, don't forget install deps in `requirements.txt` and don't ask me how to use it :)
-
+How about try this:
+```bash
+python3 dav.py -u admin -t http://google.com/
+```
 # Disclaimer
 For ~~educational and~~ research purposes only. Use at your own risk.
 
