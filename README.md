@@ -31,6 +31,12 @@ How about try this:
 ```bash
 python3 dav.py -u admin -t http://google.com/
 ```
+
+### Aftermath
+Update on 2023/12/05: It has been proved that RCE is possible (*)! check out [Ambionics' blog](https://www.ambionics.io/blog/owncloud-cve-2023-49103-cve-2023-49105) from [cfreal_](https://twitter.com/cfreal_)
+
+*: conditions apply, but **PATCH NOW**
+
 # Disclaimer
 For ~~educational and~~ research purposes only. Use at your own risk.
 
